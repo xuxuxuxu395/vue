@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         {{test}}
     </div>
 </template>
@@ -9,7 +10,7 @@
     export default {
         name: "test",
         computed:{
-            ...mapState(["Hello World"])
+            ...mapState(["test"])
         }
     }
 </script>

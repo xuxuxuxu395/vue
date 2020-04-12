@@ -1,3 +1,3 @@
 export default {
-    test:"test vuex"
+    test:"test 1.0"
 }
