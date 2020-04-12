@@ -1,6 +1,6 @@
 <template>
   <div>
-    Hello world
+    <router-view></router-view>
   </div>
 </template>
 
@@ -8,8 +8,6 @@
   export default {
     name:'App',
     mounted() {
-      var a = "a";
-      var b = "b";
     },
   }
 </script>
