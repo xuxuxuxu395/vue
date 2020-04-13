@@ -6,6 +6,7 @@ import './mock'
 import http from './http'
 import router from './router'
 import store from './store'
+import "../src/common/stylus/style.styl"
 new Vue({
   render: h => h(App),
   router,
